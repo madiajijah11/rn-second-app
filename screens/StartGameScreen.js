@@ -31,6 +31,13 @@ const styles = StyleSheet.create({
     width: 300,
     maxWidth: "80%",
     alignItems: "center",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.26,
+    shadowRadius: 8,
+    elevation: 5,
+    backgroundColor: "white",
+    padding: 20,
+    borderRadius: 10,
   },
   inputText: {
     width: "100%",
