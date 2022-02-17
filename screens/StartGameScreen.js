@@ -50,7 +50,7 @@ const StartGameScreen = (props) => {
         <Button
           title="START"
           onPress={() => props.onStartGame(selectedNumber)}
-        ></Button>
+        />
       </Card>
     );
   }
